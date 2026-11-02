@@ -35,10 +35,10 @@ class _SplashScreenState extends State<SplashScreen> {
                   color: AppTheme.white,
                   shape: BoxShape.circle,
                 ),
-                child: const Icon(
-                  Icons.search_rounded,
-                  size: 66,
-                  color: AppTheme.primaryOrange,
+                padding: const EdgeInsets.all(14),
+                child: Image.asset(
+                  'assets/icons/campus_lost_found_logo.png',
+                  fit: BoxFit.contain,
                 ),
               ),
               const SizedBox(height: 24),
